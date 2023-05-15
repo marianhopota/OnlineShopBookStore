@@ -1,0 +1,97 @@
+OSBS-1 Create database design
+OSBS-2 Create system architecture design
+
+OSBS-3 Create spring boot template project with all the dependencies
+OSBS-4 Configure database connection and database scheme
+OSBS-5 Create hibernate model
+OSBS-6 Create dummy index page
+OSBS-7 Configure spring security
+OSBS-8 Add log in page
+OSBS-9 Add client register page(public)
+OSBS-10 Add admin register page(private, only for admin role)
+OSBS-11  IMPLEMENT ADD A BOOK
+If the creation process is successful the system will allocate an unique id to the new book.
+	The system will validate the following data:
+		-Author first name  to be not blank and not empty
+		-Author last name to be not blank and not empty
+		-Name of the book to be not blank and not empty
+		-Category to be not blank and not empty
+		-Publisher to be not blank and not empty
+		-Year of publishing to be not blank, not empty and smaller than current year.
+		-Price to be not blank and not empty
+		-Number of pieces available for sale
+
+   If the creation process fails the system will show an appropriate error message.
+
+OSBS-12 IMPLEMENT VIEW ALL BOOKS
+
+      As admin i should be able to view all the books are in the warehouse.
+      I should be able to view a list where each line contains : book id, Author first and last name,
+      name of the book, publisher,price, how manny pieces are available.
+      As a user i should be able to view all the books are in the shop.
+      I should be able to view a list where each line contains : book id,
+      Author first and last name, name of the book, publisher,price.
+
+OSBS-13  IMPLEMENT DELETE BOOK
+           As a admin I should be able to delete and existing book by id from the system.
+           If the given id is found in the system the book will be deleted and a message
+           will be shown on the screen.
+           If the given id is not found in the system an appropriate error message will be shown on the screen.
+ OSBS-14   IMPLEMENT EDIT BOOK
+           As a admin I should be able to delete and existing book by id from the system.
+           If the given id is found in the system the book will be deleted and a message
+           will be shown on the screen.
+           If the given id is not found in the system an appropriate error message will be shown on the screen.
+ OSBS-15   IMPLEMENT VIEW  BOOK BY ID
+           As a user i should be able to see all the details of an existing book by id.
+           If the given id is found in the system the following details will be shown on the screen:book id,
+           Author first and last name, name of the book, publisher,price
+           If the given id is not found in the system, an appropriate error message will be shown on the screen
+ OSBS-16   IMPLEMENT ADD TO CART
+ OSBS-17   IMPLEMENT VIEW CART
+ OSBS-18   IMPLEMENT SEND ORDER
+ ///////////////////////////////////////////MVP////////////////////////////////////////
+
+ OSBS-19    IMPLEMENT EDIT CART CONTENT
+ OSBS-20    IMPLEMENT EDIT USER PROFILE
+
+            As a user, I should be able to create an account, with the following details: first name, last name,
+            e-mail address, password, telephone number, street, flat/house number,city, zip code,
+            If the creation process is successful the system will allocate an unique id to the new user.
+
+            The system will validate the following data:
+
+            		- first name  to be not blank and not empty
+            		- last name to be not blank and not empty
+            		- e-mail to be not blank and not empty
+            		- password to be not blank and not empty,
+            		- password should have at least 6 letters and one number
+            		- telephone number to be not blank and not empty
+            		- name of the street to be not blank not empty
+            		- flat/house number to be not blank and not empty
+            		- city to be not blank and not empty
+            		- zip code to be not blank and not empty
+            If the creation process fails the system will show an appropriate error message.
+
+
+OSBS-21      IMPLEMENT VIEW  BOOKS BY AUTHOR
+As a user i should be able to see all the details of an existing book by author.
+If the given name of the author is found in the system the following details will be shown on the screen:book id,
+Author first and last name, name of the book, publisher,price
+If the given name of the author is not found in the system, an appropriate error message will be shown on the screen
+
+OSBS-22      IMPLEMENT VIEW  BOOKS BY PUBLISHER
+As a user i should be able to see all the details of an existing book by publisher.
+If the given publisher is found in the system the following details will be shown on the screen:book id,
+Author first and last name, name of the book, publisher,price
+If the given publisher is not found in the system, an apropriate error message will be shown on the screen
+
+OSBS-23     IMPLEMENT WIEW  BOOKS BY NAME OF THE BOOK
+As a user i should be able to see all the details of an existing book by id.
+If the given name of the book found in the system the following details will be shown on the screen:book id,
+Author first and last name, name of the book, publisher,price
+If the given name of the book is not found in the system, an appropriate error message will be shown on the screen
+
+
+
+

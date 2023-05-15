@@ -1,0 +1,84 @@
+Online SHOP for books
+
+Java Desktop Application used for an online book shop.
+
+- IMPLEMENT ADD A BOOK
+
+If the creation process is successful the system will allocate an unique id to the new book.
+	The system will validate the following data:
+		-Author first name  to be not blank and not empty
+		-Author last name to be not blank and not empty
+		-Name of the book to be not blank and not empty
+		-Category to be not blank and not empty
+		-Publisher to be not blank and not empty
+		-Year of publishing to be not blank, not empty and smaller then current year.
+		-Price
+		-Number of pieces availeble for sale
+
+   If the creation process fails the system will show an appropriate error message.
+
+
+- IMPLEMENT ADD A USER ACCOUNT
+
+As a user, I shoud be able to create an account, with the following details: first name, last name,
+e-mail adress, password, telephone number, street, flat/house number,city, zip code,
+If the creation process is successful the system will allocate an unique id to the new user.
+
+The system will validate the following data:
+
+		- first name  to be not blank and not empty
+		- last name to be not blank and not empty
+		- e-mail to be not blank and not empty
+		- password to be not blank and not empty,
+		- password shoud have at least 6 letters and one number
+		- telephone number to be not blank and not empty
+		- name of the street to be not blank not empty
+		- flat/house number to be not blank and not empty
+		- city to be not blank and not empty
+		- zip code to be not blank and not empty
+If the creation process fails the system will show an appropriate error message.
+
+- IMPLEMENT WIEW ALL BOOKS AS ADMIN
+
+As admin i shoud be able to wiew all the books are in the warehouse.
+I shoud be able to wiew a list where each line contains : book id, Author first and last name,
+ name of the book, publisher,price, how manny pieces are availeble.
+
+- IMPLEMENT WIEW ALL BOOKS AS USER
+
+As a user i shoud be able to wiew all the books are in the shop.
+I shoud be able to wiew a list where each line contains : book id, Author first and last name, name of the book, publisher,price.
+
+- IMPLEMENT WIEW  BOOKS BY ID
+As a user i shoud be able to see all the details of an existing book by id.
+If the given id is found in the system the following details will be shown on the screen:book id, Author first and last name, name of the book, publisher,price
+If the given id is not found in the system, an apropriate error message will be shown on the screen
+
+- IMPLEMENT WIEW  BOOKS BY AUTHOR
+As a user i shoud be able to see all the details of an existing book by author.
+If the given name of the author is found in the system the following details will be shown on the screen:book id, Author first and last name, name of the book, publisher,price
+If the given name of the author is not found in the system, an apropriate error message will be shown on the screen
+
+- IMPLEMENT WIEW  BOOKS BY PUBLISHER
+As a user i shoud be able to see all the details of an existing book by publisher.
+If the given publisher is found in the system the following details will be shown on the screen:book id, Author first and last name, name of the book, publisher,price
+If the given publisher is not found in the system, an apropriate error message will be shown on the screen
+
+- IMPLEMENT WIEW  BOOKS BY NAME OF THE BOOK
+As a user i shoud be able to see all the details of an existing book by id.
+If the given name of the book found in the system the following details will be shown on the screen:book id, Author first and last name, name of the book, publisher,price
+If the givenname of the book is not found in the system, an apropriate error message will be shown on the screen
+
+
+- IMPLEMENT DELETE BOOK
+   As a admin I should be able to delete and existing book by id from the system.
+   If the given id is found in the system the book will be deleted and a message
+   will be shown on the screen.
+   If the given id is not found in the system an appropriate error message will be shown on the screen.
+
+   //////////////////////////////////////////////////////////////////////////////
+
+-IMPLEMENT CREATE AN ORDER
+As a user i shoud be able to buy one ore more books from the shop.
+
+
